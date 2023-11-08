@@ -14,5 +14,4 @@ Autor: Icaro Mendes
 
 <br>
 
-<p>Obs: lembrar de dar a permissão de executável aos arquivos</p>
  
