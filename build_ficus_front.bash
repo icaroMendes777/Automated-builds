@@ -4,8 +4,6 @@
 #tarefa: cria build dos projetos front da ficus
 
 #build_project() params: "folder", "base_do projeto"
-
-
 build_project(){
 
     initialFolder=$1
