@@ -20,7 +20,6 @@ build_project(){
 
 currentDir=$(pwd)
 
-build_project "/home/icaro/projects/ficus-client" "/client/"
 build_project "/home/icaro/projects/ficus-professional" "/professional/"
 build_project "/home/icaro/projects/ficus-front/site" "/site/"
 

@@ -28,18 +28,6 @@ clear_dir $finalDir
 
     cp -a  $initialDir  $finalDir 
 
-echo "movendo o build de /client..."
-
-#--------
-
-initialDir="$HOME/projects/ficus-client/dist/ficus-client/."
-finalDir="$HOME/projects/ficus/public/client"
-
-clear_dir $finalDir
-
-    cp -a  $initialDir  $finalDir
-
-
 echo "movendo o build de /professional..."
 
 #--------
@@ -50,6 +38,20 @@ finalDir="$HOME/projects/ficus/public/professional"
 clear_dir $finalDir
 
     cp -a  $initialDir  $finalDir
+
+
+echo "movendo assets..."
+
+initialDir="$HOME/projects/ficus-front/site/src/assets/."
+finalDir="$HOME/projects/ficus/public/assets"
+
+    cp -rf $initialDir  $finalDir
+
+
+initialDir="$HOME/projects/ficus-professional/src/assets/."
+finalDir="$HOME/projects/ficus/public/assets"
+
+    cp -rf $initialDir  $finalDir
 
 echo "Terminado."
 
